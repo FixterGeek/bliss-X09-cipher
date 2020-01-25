@@ -60,8 +60,6 @@ ejemplo:
 
 ## 3. Objetivos de aprendizaje
 
-## 3. Objetivos de aprendizaje
-
 El objetivo principal de aprendizaje es adquirir experiencia desarrollando
 aplicaciones web (WebApp) que interactúen con el usuario a través del navegador
 y la lógica, utilizando HTML5, CCS3 y JavaScript como herramientas.
