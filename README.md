@@ -60,38 +60,50 @@ ejemplo:
 
 ## 3. Objetivos de aprendizaje
 
-En este proyecto aprenderás a construir una aplicación web (_WebApp_) que
-interactuará con el usuario final a través del navegador utilizando HTML, CSS y
-JavaScript como herramientas.
+## 3. Objetivos de aprendizaje
 
-Dicho en palabras sencillas, aprenderás a
+El objetivo principal de aprendizaje es adquirir experiencia desarrollando
+aplicaciones web (WebApp) que interactúen con el usuario a través del navegador
+y la lógica, utilizando HTML5, CCS3 y JavaScript como herramientas.
 
-* Organizar tu tiempo y priorizar tareas en un entorno de
-  **alta incertidumbre**.
-* Entender las **necesidades del usuario** y cómo proponer una solución.
-* Entender la importancia del proceso de prototipado durante la creación de un
-  producto digital.
-* Conocer los principios básicos del diseño visual.
-* Utilizar etiquetas semánticas de HTML y elementos de formulario.
-* Mostrar elementos de formulario en la pantalla usando **HTML** y **CSS**.
-* Utilizar diversos tipos de selectores en CSS: de elemento, de clase, de id.
-* Utilizar el modelo de cajas de CSS (border, margin, padding).
-* Definir reglas de estilo en CSS.
-* Permitir al usuario interactuar con elementos del DOM y hacer que la
-  aplicación responda (cifrar/descifrar) cuando ocurran esos
-  **eventos del DOM**.
-* Manipular _**strings**_ (cadenas de texto).
-* Usar **control de flujo** (bucles, condicionales, ...).
-* Actualizar la pantalla con los resultados (**manipular el DOM**) a través de
-  **innerHTML** o **textContent**.
-* **Implementar funciones** dada una descripción de su comportamiento.
-* Verificar que tus funciones hagan las cosas para las que fueron creadas
-  (**pruebas unitarias (_unit tests_) con Jest**).
-* Configurar tu cuenta de git.
-* Hacer _fork_ y _clonar_ el repositorio del proyecto.
-* Mantener actualizado los cambios en tu repositorio remoto
-  (commit, pull, push).
-* Desplegar tu proyecto en gh-pages.
+Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplicar** en tu proyecto.
+
+### UX
+
+- [ ] Diseñar la aplicación pensando y entendiendo al usuario.
+- [ ] Crear prototipos para obtener feedback e iterar.
+- [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+
+### HTML y CSS
+
+- [ ] Uso correcto de HTML semántico.
+- [ ] Uso de selectores de CSS.
+- [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
+
+### DOM
+
+- [ ] Uso de selectores del DOM.
+- [ ] Manejo de eventos del DOM.
+- [ ] Manipulación dinámica del DOM.
+
+### Javascript
+
+- [ ] Manipulación de strings.
+- [ ] Uso de condicionales (if-else | switch).
+- [ ] Uso de bucles (for | do-while).    
+- [ ] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [ ] Declaración correcta de variables (const & let).
+
+### Testing
+- [ ] Testeo de tus funciones.
+
+### Git y GitHub
+- [ ] Comandos de git (add | commit | pull | status | push).
+- [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+
+### Buenas prácticas de desarrollo
+- [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [ ] Uso de linter para seguir buenas prácticas (ESLINT).
 
 ## 4. Consideraciones generales
 
