@@ -70,8 +70,8 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 
 ### UX
 
-- [ ] Diseñar la aplicación pensando y entendiendo al usuario.
-- [ ] Crear prototipos para obtener feedback e iterar.
+- [ * ] Diseñar la aplicación pensando y entendiendo al usuario.
+- [*] Crear prototipos para obtener feedback e iterar.
 - [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 
 ### HTML y CSS
