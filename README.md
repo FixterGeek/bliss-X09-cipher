@@ -2,6 +2,7 @@
 
 ## Índice
 
+* [0. Definicion del producto -NUEVO-](#0-definición)
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
@@ -13,6 +14,18 @@
 * [9. Checklist](#9-checklist)
 
 ***
+
+## 0. Definición
+
+¿Quiénes son los principales usuarios de producto?
+  > Usuarios que quieren comunicarse de forma segura
+
+¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
+  > El app es un complemento para educación o juegos 
+
+¿Cómo crees que el producto que estás creando está resolviendo sus problemas?
+  > Es una manera rápida de obtener la codificación de textos 
+
 
 ## 1. Preámbulo
 
