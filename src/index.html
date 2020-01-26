@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>BlisS' Cipher</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <section class="main">
+    <h1>¡Cifrado Cesar!</h1>
+    <p>by BlisS</p>
+
+    <form>
+      <label>
+        Coloca el texto o la frase <br />
+        <input value="hij" type="text" name="phrase" />
+      </label>
+      <label>
+        Coloca el número de caracteres a recorrer: <br />
+        <input name="offset" value="33" type="number" />
+      </label>
+      <label class="check">
+        Decifrar
+        <input name="cipher" type="checkbox" />
+      </label>
+      <button type="submit">
+        Procesar
+      </button>
+    </form>
+  </section>
+
+
+  <section class="result hide">
+    <span class="icon">⬅</span>
+    <h2 id="text">Mensaje resultado</h2>
+    <button id="copy">Copiar al porta papeles</button>
+
+  </section>
+
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
