@@ -29,6 +29,16 @@ describe('cipher', () => {
       expect(cipher.encode(33, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ')).toBe('HIJKLMNOPQRSTUVWXYZABCDEFG');
     });
 
+    // tests added
+    describe("Tests added by BlisS", () => {
+      it("Should work with phrases that contains spaces",
+        () => expect(cipher.encode(33, "ESTE EJERCICIO ES MUY ENTRETENIDO")).toBe("LZAL LQLYJPJPV LZ TBF LUAYLALUPKV"))
+
+      it("Should convert lowcase to uppercase",
+        () => expect(cipher.encode(33, "una frase con minusculas")).toBe("BUH MYHZL JVU TPUBZJBSHZ"))
+    })
+
+
     // Hacker edition
     //
     // [Español]
@@ -74,6 +84,16 @@ describe('cipher', () => {
     it('should return "ABCDEFGHIJKLMNOPQRSTUVWXYZ" for "HIJKLMNOPQRSTUVWXYZABCDEFG" with offset 33', () => {
       expect(cipher.decode(33, 'HIJKLMNOPQRSTUVWXYZABCDEFG')).toBe('ABCDEFGHIJKLMNOPQRSTUVWXYZ');
     });
+
+    // tests added
+    describe("Tests added by BlisS", () => {
+      it("Should work with phrases that contains spaces",
+        () => expect(cipher.decode(33, "LZAL LQLYJPJPV LZ TBF LUAYLALUPKV")).toBe("ESTE EJERCICIO ES MUY ENTRETENIDO"))
+
+      it("Should convert lowcase to uppercase",
+        () => expect(cipher.decode(33, "buh myhzl jvu tpubzjbshz")).toBe("UNA FRASE CON MINUSCULAS"))
+    })
+
 
     //
     // Hacker edition

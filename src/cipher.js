@@ -1,6 +1,9 @@
-let alphabet = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z".split(' ')
+// let alphabet = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z".split(' ')
 const cipher = {
-  code(string = "abc", offset = 33, back) {
+  encode(offset, string, back) {
+    //validation
+    if ((!string || !offset) || typeof string !== "string") throw new TypeError()
+    //
     let resu = []
     offset = Number(offset)
     for (let i of string) {
@@ -15,7 +18,7 @@ const cipher = {
     return resu.join('')
   },
   decode(string = "hij", offset = 33) {
-    return this.code(string, offset, true)
+    return this.encode(string, offset, true)
   }
 }
 

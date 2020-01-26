@@ -35,9 +35,9 @@ function getData(e) {
     if (form.phrase.includes('ñ')) return alert("No uses caracteres especiales como la Ñ")
     let result
     if (form.cipher) {
-        result = cipher.decode(form.phrase, form.offset)
+        result = cipher.decode(form.offset, form.phrase)
     } else {
-        result = cipher.code(form.phrase, form.offset)
+        result = cipher.encode(form.offset, form.phrase)
     }
     showResult(result)
 }
